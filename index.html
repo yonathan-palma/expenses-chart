@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>expenses-chart-component-main</title>
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <div class="card_header">
+                <div class="header-content">
+                    <p class="font-size-small">My balance</p>
+                    <p class="amount">$<span id="amount"></span></p>
+                </div>
+                <div class="img_logo">
+                    <img src="images/logo.svg" alt="Logo">
+                </div>
+            </div>
+            <div class="card_body">
+                <h1>Spending - Last 7 days</h1>
+                <div class="graph">
+                    <div class="bar_container">
+                        <div class="bar" id="mon"></div>
+                        <div class="day font-size-small">mon</div>
+                    </div>
+                    <div class="bar_container">
+                        <div class="bar" id="tue"></div>
+                        <div class="day font-size-small">tue</div>
+                    </div>
+                    <div class="bar_container">
+                        <div class="bar" id="wed"></div>
+                        <div class="day font-size-small">wed</div>
+                    </div>
+                    <div class="bar_container">
+                        <div class="bar" id="thu"></div>
+                        <div class="day font-size-small">thu</div>
+                    </div>
+                    <div class="bar_container">
+                        <div class="bar" id="fri"></div>
+                        <div class="day font-size-small">fri</div>
+                    </div>
+                    <div class="bar_container">
+                        <div class="bar" id="sat"></div>
+                        <div class="day font-size-small">sat</div>
+                    </div>
+                    <div class="bar_container">
+                        <div class="bar" id="sun"></div>
+                        <div class="day font-size-small">sun</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card_info">
+                    <div class="total">
+                        <p class="font-size-small">Total this month</p>
+                        <p class="amount_total">$478.33</p>
+                    </div>
+                    <div class="last">
+                        <p class="amount_last">+2.4%</p>
+                        <p class="font-size-small">from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/data.json"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

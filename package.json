@@ -1,0 +1,20 @@
+{
+  "name": "expanse-chart-component",
+  "version": "1.0.0",
+  "description": "Crear un componente de gráfico de barras desde cero",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "keywords": [
+    "javascript",
+    "npm",
+    "json"
+  ],
+  "author": "yonathan palma",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

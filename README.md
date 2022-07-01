@@ -53,5 +53,5 @@ A Further exploring the requestAnimationFrame API.
 
 ## Author
 
-- Website - [Add your name here](https://github.com/yonathan-palma)
+- Website - [Yonathan Palma](https://github.com/yonathan-palma)
 - Frontend Mentor - [@yonathan-palma](https://www.frontendmentor.io/profile/yonathan-palma)

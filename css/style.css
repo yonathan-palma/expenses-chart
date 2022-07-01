@@ -75,12 +75,17 @@ body{
     background-color: var(--Soft-red);
     border-radius: 5px;
     position: relative;
-    /* transition: height 2s; */
-    transition-property: height;
-    transition-duration: 3s;
+    transition: height 2s;
+    height: 0%;
 }
-#wed{
-    background-color: var(--Cyan);
+.bar:hover{
+    background-color: rgba(236, 119, 95, 0.75);
+}
+.cyan{
+    background-color: var(--Cyan) !important;
+}
+.cyan:hover{
+    background-color: rgba(118, 181, 188, 0.65) !important;
 }
 .day{
     color: var(--Medium-brown);
@@ -95,6 +100,8 @@ body{
     padding: 0.4rem;
     top: -2.8rem;
     margin-left: -0.5rem;
+    z-index: 10;
+    opacity: 1;
 }
 .card_body hr{
     background-color: var(--Cream);
